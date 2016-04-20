@@ -11,9 +11,9 @@ Feel free to use any string methods you wish.
 
 // Gives back ("returns") the fourth letter in a string
 var printLetter1 = function () { 
-  'print the fourth letter in this string'[3];
+	console.log('This is working!');
 
-  return
+  return 'print the fourth letter in this string'[3];
 };
 
 /*
@@ -21,8 +21,9 @@ Give back ("return") the input string "concatenated" with
 the raw string provided
 */
 var bridgeString1 = function(myInputString) {
-  
-  'I wish I could code  in javascript all day, every day!';
 
-  return
+
+  return myInputString + 'I wish I could code  in javascript all day, every day!';
 };
+
+bridgeString1('Javascript is so much fun, ')
